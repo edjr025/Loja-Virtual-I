@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="shop.html" >Loja</a></li>
+                <li><a href="glog.html">Blog</a></li>
+                <li><a href="about.html" >Sobre</a></li>
+                <li><a href="contact.html" >Contato</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"> <i class="fas fa-shopping-basket"></i></a></li>
+                <a href="#" id="close"> <i class="fas fa-times"></i> </a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"> <i class="fas fa-shopping-basket"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+       
+        <h2>#Comprando ....</h2>
+        <p>Efetue sua compra com segurança, usamos Gateways de pagamento protegidos </p>
+        
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width='100%'>
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagem</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Sub-Total</td>
+                </tr>
+               
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>R$118,19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$118.19</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>R$118,19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$118.19</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>R$118,19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Aplicar Cupom</h3>
+            <div>
+                <input type="text" placeholder="Infome o codigo do seu cupom">
+                <button class="normal">Aplicar</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Total do carrinho</h3>
+            <table>
+                <tr>
+                    <td>Totais do carrinho</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Envio</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>R$335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Fechar a Compra</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Endereço: </strong> Av monsenhor, 233, Bom Jesus</p>
+            <p> <strong>Fone: </strong> 34 998745874</p>
+            <p> <strong>Horário: </strong> 10:00 - 18:00, Seg - Sab</p>
+            <div class="follow">
+                <h4>Siga-nos</h4>
+                <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Informação de entrega</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Contate-nos</a>
+        </div>
+
+        <div class="col">
+            <h4>minha Conta</h4>
+            <a href="#">Inscreva-se</a>
+            <a href="#">Ver carrinho</a>
+            <a href="#">Minha Lista de Desejos</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Localize meu pedido</a>
+            <a href="#">Ajuda</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instale o nosso App</h4>
+            <p>Na App Store ou Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Gateways de pagamento protegidos</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2022, edjr025 - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
